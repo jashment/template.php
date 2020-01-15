@@ -3,28 +3,35 @@ $menuColor: blue;
 
 nav {
   background-color: $menuColor;
+  padding-left: 0;
+  margin: auto;
+  width: 100%;
+  
 
   // new stuff
   ul {
-    margin-left: 2%;
+    margin: auto;
+    width: 75rem;
   }
   ul li {
-    float: left;
+    // float: left;
     list-style-type: none;
-    border: solid 1px black;
+    position: relative;
+    display: inline;
+    // border: solid 1px black;
   }
   ul li a {
-    display: block;
+    display: inline-block;
     border: none; // undo small screen
 
-    background: blue;
-    font-size: 0.9em;
+    // background: blue;
+    // font-size: 0.9em;
     padding: 0.9em 0.9em;
-    color: rgba(255, 255, 255, 1);
+    // color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    /*transition*/
-    -webkit-transition: background 0.3s linear;
-    transition: background 0.3s linear;
+    // /*transition*/
+    // -webkit-transition: background 0.3s linear;
+    // transition: background 0.3s linear;
   }
   ul li a:hover {
     background: darken($menuColor, 5%);
