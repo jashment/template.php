@@ -1,0 +1,213 @@
+div.myslider div {
+    width: 100%;
+}
+
+div.myslider div img {
+    width: 100%;
+}
+
+.slick-dots li button {
+    color: blue;
+    font-size: 54px;
+}
+
+button#slick-slide-control {
+    color: black;
+}
+
+/*----- Main Styling -----*/
+article.membImg {
+    margin: .5rem 2%;
+
+}
+
+article.membCol {
+    /*border: solid 1px black;*/
+     text-align: center;
+     border: solid 1px black;
+
+}
+
+/*----- Column Layout -----*/
+
+
+.row{
+    clear: both;
+}
+
+.column {
+    padding: .5rem 1%;
+}
+
+@for $i from 1 through 12 {
+    $w: ($i / 12) * 100%;
+    .small-#{$i} {
+        width: $w; 
+        float: left;
+    }
+}
+
+p {
+    margin: .5rem 2%;
+}
+
+
+
+article.llgallery figure {
+    width: 100%;
+    height: 1px;
+    padding-bottom: 67%;  /*62.5%*/
+    padding-top: .5rem;
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+
+article.llgallery figure img {
+    width: 100%;
+}
+
+article.membCol{
+    padding-bottom: 1rem;
+}
+
+article.membCol a{
+    padding-left: 2%;
+}
+
+article.membCol div {
+    text-align: left;
+    
+}
+        
+article.membCol div a{
+    padding-left: 2%;
+}
+
+div.sec1{
+    padding: 1rem 0;
+}
+
+div.sec1 article.membCol {
+    background-color: lighten(gainsboro, 10%);
+}
+
+
+div.sec1 article.membCol a{
+    display: block;
+    text-decoration: none;
+    padding: .25rem .25rem;
+    color: #00688B;
+
+    width: 80px;
+    height: 32px;
+    background-color: rgba(0,0,0,0.1);
+    
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 1rem auto;
+    white-space: nowrap;
+}
+
+div.sec2 {
+    padding-left: 2.25rem;
+    margin-right:-2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+div.sec2 article.membCol {
+    border: none;
+    color: white;
+    background-color: #00688B;
+    margin-bottom: 0;
+}
+
+div.sec2 article.membCol a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+    padding: 2rem;
+    margin-top: -2rem;
+}
+
+div.sec3{
+    padding: 1rem 0;
+}
+
+div.sec3 article.membCol {
+    border: none;
+    background-color: darkgray;
+}
+
+div.sec3 article.membCol div {
+    background-color: gainsboro;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    bottom: 0;
+}
+
+div.sec3 div div div {
+    background-color: gainsboro;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    bottom: 0;
+
+    a{
+        display: block;
+        text-decoration: none;
+        color: #00688B;
+        
+    }
+}
+
+div.sec4{
+    padding: 1rem 0;
+
+}
+
+div.sec4 article.membCol {
+    border: none;
+    background-color: silver;
+    padding: .5rem;
+}
+
+div.sec4 article.membCol a {
+    text-decoration: none;
+    color: #00688B;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer{
+    bottom: 0;
+    background-color: blue;
+    ul.social {
+        margin: 0 auto;
+        text-align: center;
+        }
+
+        ul.social li {
+            list-style-type: none;
+            
+            display: inline-block;
+        }
+
+        ul.social li a {
+            font-size: 1.8rem;
+            padding-left: 1.5rem;
+            color: white;
+        }
+
+        ul.social li a:hover {
+            color: silver;
+        }
+}

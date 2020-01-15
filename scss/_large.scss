@@ -1,0 +1,26 @@
+main{
+    max-width: 75rem;
+    
+
+
+
+
+/*----- Column Layout -----*/
+
+        div.perfWrap {
+            margin-right: -13%;
+            margin-left: 5%;
+        }
+
+        @for $i from 1 through 12 {
+            $w: ($i / 12) * 100%;
+            .large-#{$i} {
+                width: $w; 
+                float: left;
+            }
+        }
+
+        
+
+
+}

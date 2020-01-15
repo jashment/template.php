@@ -10,6 +10,9 @@
       media="screen"
       href="scss/styles.css"
     />
+    <link rel="stylesheet" href="scss/all.min.css">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
   </head>
 
   <body>
@@ -38,10 +41,99 @@
           </ul>
         </li>
         <li><a href="#">CONTACT US</a></li>
+        <li><p>1-800-234-5678</p></li>
       </ul>
     </nav>
 
+
+
     <main>
+
+        <div class="myslider">
+
+            <picture>
+              <source srcset="sliders/slider01h.jpg" media="(min-width: 29.25rem)">
+              <img srcset="sliders/slider01s.jpg" alt="Boston1">
+            </picture>
+    
+            <picture>
+              <source srcset="sliders/slider02h.jpg" media="(min-width: 29.25rem)">
+              <img srcset="sliders/slider02s.jpg" alt="Boston2">
+            </picture>
+    
+            <picture>
+              <source srcset="sliders/slider03h.jpg" media="(min-width: 29.25rem)">
+              <img srcset="sliders/slider03s.jpg" alt="Boston3">
+            </picture>
+    
+            <picture>
+              <source srcset="sliders/slider04h.jpg" media="(min-width: 29.25rem)">
+              <img srcset="sliders/slider04s.jpg" alt="Boston4">
+            </picture>
+    
+    
+          </div>
+
+          <div class="sec3 clearfix">
+            <div class="row">
+          
+              <div class="column small-12 medium-6 large-3">
+                <article class="membCol" style="text-align: left;">
+                  
+                  <figure class="membImg"><img src="images/pexels-photo-886465-min.jpeg"></figure>
+                  <h2>Blog Post #1</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu. Eu non diam phasellus vestibulum lorem sed risus.</p>
+                  
+                </article>
+                <div>
+                  <a href="#">Read More</a>
+                </div>
+              </div> <!-- end column-->
+          
+              <div class="column small-12 medium-6 large-3">
+                <article class="membCol" style="text-align: left;">
+                  
+                  <figure class="membImg"><img src="images/pexels-photo-669615-min.jpeg"></figure>
+                  <h2>Blog Post #2</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu. Eu non diam phasellus vestibulum lorem sed risus.</p>
+                  
+                </article>
+                <div>
+                  <a href="#">Read More</a>
+                </div>
+              </div> <!-- end column-->
+          
+              <div class="column small-12 medium-6 large-3">
+                <article class="membCol" style="text-align: left;">
+                  
+                  <figure class="membImg"><img src="images/pexels-photo-533189-min.jpeg"></figure>
+                  <h2>Blog Post #3</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu. Eu non diam phasellus vestibulum lorem sed risus.</p>
+                  
+                </article>
+                <div>
+                  <a href="#">Read More</a>
+                </div>
+              </div> <!-- end column-->
+          
+              <div class="column small-12 medium-6 large-3">
+                <article class="membCol" style="text-align: left;">
+                  
+                  <figure class="membImg"><img src="images/pexels-photo-327540-min.jpeg"></figure>
+                  <h2>Blog Post #4</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu. Eu non diam phasellus vestibulum lorem sed risus.</p>
+                  
+                </article>
+                <div>
+                  <a href="#">Read More</a>
+                </div>
+              </div> <!-- end column-->
+          
+          
+            </div> <!-- end row-->
+          </div>
+          
+      
       <p>
         This navigation is based on "Mobile Dropdown Conversion" by
         <a href="https://www.astuteo.com/mobilemenu" target="_blank">Astuteo</a>
@@ -69,12 +161,30 @@
     </main>
 
     <footer>
-      Built in 2018 by
-      <a href="http://spartandesignuniversity.com/" target="_blank"
-        >Paul Cheney</a
-      >
-    </footer>
+			<ul class="social clearfix">
+				<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+				<li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+			</ul>			
+	</footer>
 
     <script src="js/menuToggle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.myslider').slick({
+			autoplay:true,
+			dots:true,
+			arrows:false,
+			cssEase: 'ease-out',
+			speed: 2000,
+			autoplaySpeed: 10000,
+      mobileFirst: true,
+		});
+	});
+
+</script>
   </body>
 </html>
