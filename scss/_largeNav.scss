@@ -11,6 +11,7 @@ nav {
   ul li {
     float: left;
     list-style-type: none;
+    border: solid 1px black;
   }
   ul li a {
     display: block;
@@ -53,4 +54,9 @@ nav {
   li.active a {
     background-color: rgba(0, 0, 0, 0.25);
   }
-} // end nav
+
+  ul li#phoneNum {
+    float: right;
+  }
+}
+// end nav

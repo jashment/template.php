@@ -415,7 +415,8 @@ nav {
     margin-left: 2%; }
   nav ul li {
     float: left;
-    list-style-type: none; }
+    list-style-type: none;
+    border: solid 1px black; }
   nav ul li a {
     display: block;
     border: none;
@@ -448,6 +449,8 @@ nav {
     margin-left: 0; }
   nav li.active a {
     background-color: rgba(0, 0, 0, 0.25); }
+  nav ul li#phoneNum {
+    float: right; }
 
 div.myslider div {
   width: 100%; }
@@ -456,15 +459,17 @@ div.myslider div img {
   width: 100%; }
 
 .slick-dots li button {
-  color: blue;
-  font-size: 54px; }
+  color: black; }
+
+.myslider.slick-dots {
+  font-size: 54px !important; }
 
 button#slick-slide-control {
   color: black; }
 
 /*----- Main Styling -----*/
 article.membImg {
-  margin: .5rem 2%; }
+  margin: 0.5rem 2%; }
 
 article.membCol {
   /*border: solid 1px black;*/
@@ -476,7 +481,7 @@ article.membCol {
   clear: both; }
 
 .column {
-  padding: .5rem 1%; }
+  padding: 0.5rem 1%; }
 
 .small-1 {
   width: 8.3333333333%;
@@ -527,14 +532,14 @@ article.membCol {
   float: left; }
 
 p {
-  margin: .5rem 2%; }
+  margin: 0.5rem 2%; }
 
 article.llgallery figure {
   width: 100%;
   height: 1px;
   padding-bottom: 67%;
   /*62.5%*/
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   margin: 0 auto;
   display: block;
   float: none; }
@@ -563,8 +568,8 @@ div.sec1 article.membCol {
 div.sec1 article.membCol a {
   display: block;
   text-decoration: none;
-  padding: .25rem .25rem;
-  color: #00688B;
+  padding: 0.25rem 0.25rem;
+  color: #00688b;
   width: 80px;
   height: 32px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -582,7 +587,7 @@ div.sec2 {
 div.sec2 article.membCol {
   border: none;
   color: white;
-  background-color: #00688B;
+  background-color: #00688b;
   margin-bottom: 0; }
 
 div.sec2 article.membCol a {
@@ -616,7 +621,7 @@ div.sec3 div div div {
   div.sec3 div div div a {
     display: block;
     text-decoration: none;
-    color: #00688B; }
+    color: #00688b; }
 
 div.sec4 {
   padding: 1rem 0; }
@@ -624,11 +629,11 @@ div.sec4 {
 div.sec4 article.membCol {
   border: none;
   background-color: silver;
-  padding: .5rem; }
+  padding: 0.5rem; }
 
 div.sec4 article.membCol a {
   text-decoration: none;
-  color: #00688B; }
+  color: #00688b; }
 
 .clearfix:after {
   content: "";
