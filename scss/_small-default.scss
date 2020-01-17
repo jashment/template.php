@@ -1,3 +1,45 @@
+header{
+  position: relative;
+  display: flex;
+  #logo{
+    display: inline-block;
+    padding: .5em;
+
+    img{
+      background-color: gray;
+      border-radius: 1em;
+      width: 5em;
+      height: 5em;
+    }
+  }
+
+  div a {
+    position: absolute;
+    color: black;
+  }
+
+  div div {
+    width: 100%; 
+    float: right;
+  }
+
+  div p a {
+    right: 0; 
+    bottom: 0;
+    font-size: 28px;
+    text-decoration: none;
+    padding: .25rem;
+    font-style:italic;
+  }
+
+  div p a:hover {
+    background-color: lightgrey;
+    border-radius: .5rem;
+    padding: .25rem;
+    font-style:italic;
+  }
+}
+
 div.myslider div {
   width: 100%;
 }

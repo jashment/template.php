@@ -406,14 +406,21 @@ nav {
     margin: auto;
     width: 75rem; }
   nav ul li {
+    float: left;
     list-style-type: none;
     position: relative;
     display: inline; }
   nav ul li a {
     display: inline-block;
     border: none;
+    background: blue;
+    font-size: 0.9em;
     padding: 0.9em 0.9em;
-    text-decoration: none; }
+    color: white;
+    text-decoration: none;
+    /*transition*/
+    -webkit-transition: background 0.3s linear;
+    transition: background 0.3s linear; }
   nav ul li a:hover {
     background: #0000e6; }
   nav ul li ul {
@@ -437,6 +444,36 @@ nav {
     background-color: rgba(0, 0, 0, 0.25); }
   nav ul li#phoneNum {
     float: right; }
+
+header {
+  position: relative;
+  display: flex; }
+  header #logo {
+    display: inline-block;
+    padding: .5em; }
+    header #logo img {
+      background-color: gray;
+      border-radius: 1em;
+      width: 5em;
+      height: 5em; }
+  header div a {
+    position: absolute;
+    color: black; }
+  header div div {
+    width: 100%;
+    float: right; }
+  header div p a {
+    right: 0;
+    bottom: 0;
+    font-size: 28px;
+    text-decoration: none;
+    padding: .25rem;
+    font-style: italic; }
+  header div p a:hover {
+    background-color: lightgrey;
+    border-radius: .5rem;
+    padding: .25rem;
+    font-style: italic; }
 
 div.myslider div {
   width: 100%; }
