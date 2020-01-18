@@ -4,44 +4,50 @@ nav {
   background-color:$menuColor;
   width: 100%;
   margin: auto;
-div#searchBar {
-	position: relative;
-	float: right;
-	margin-top: -40px;
-	display: flex;
-	form {
-	input {
-		height: 35px;
-		width: 100%;
-		float: right;
-
-	}
-	button {
-		float: right;
-		margin-top: -35px;
-		height: 35px;
-		border: none;
-		background-color: transparent;
-		cursor: pointer;
-	}
-}
-}
-
-	// new stuff
 	ul {
-	list-style-type: none;
-		
+
+		li#searchBar {
+			float: right;
+			margin-top: 5px;
+			form {
+				input {
+					height: 35px;
+					width: 100%;
+					float: right;
+
+				}
+				button {
+					float: right;
+					margin-top: -35px;
+					height: 35px;
+					border: none;
+					background-color: transparent;
+					cursor: pointer;
+				}
+			}
+		}
 	}
+	// new stuff
+
 	ul#primaryNav {
 		background-color: blue;
-		max-width: 1200px;
+		max-width: 600px;
 		height: 45px;
-		width: 100%;
+		width: 50%;
 		padding: 0;
 		margin: auto;
-		
+		list-style-type: none;
+		float: left;
 	}
-	ul li {float: left;left: -999em;}
+		ul#secondaryNav{
+		list-style-type: none;
+		width: 50%;
+		float: right;
+		padding: 0;
+		margin: 0;
+		height: 45px;
+	}
+	ul li {float: left;left: -999em; list-style-type: none;}
 	
 	ul li a { 
 		display: inline-block;
@@ -64,11 +70,13 @@ div#searchBar {
 		background-color: lighten($menuColor, 10%);
 		left: -999em; /* pushes the menu way off to the side */
 		width: 12em;
+		text-decoration: none;
 	}
  	ul li ul li { /* overides the float and line from the parent ul */
 		float: none;
 		border-right: none;
 		border-top: solid 1px rgba(0,0,0,0.2);
+		text-decoration: none;
 	}
 
  	ul li:hover ul { /* this displays the menus as drop downs  */

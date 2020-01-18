@@ -1,10 +1,13 @@
 
 function toggleMenu() {
-	var y = document.getElementById('primaryNav');
+  var y = document.getElementById('primaryNav');
+  var x = document.getElementById('hamburgerBtn');
 if(document.getElementById('primaryNav').className==='closed') {
-    	y.className='open';
+      y.className='open';
+      x.className='open';
     } else {
-    	y.className='closed';
+      y.className='closed';
+      x.className='closed'
     }
 }
 var x = document.getElementById('hamburgerBtn');

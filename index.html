@@ -1,75 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Mobile Dropdown for Small Screens</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="scss/styles.css"
-    />
-    <link rel="stylesheet" href="scss/all.min.css" />
-    <link href="slick/slick.css" rel="stylesheet" />
-    <link href="slick/slick-theme.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <header>
-      <div id="logo">
-        <img src="images/SegoLily2.png"/>
-      </div>
-    <div><p><a href="tel:1-800-234-5678">1-800-234-5678</a></p></div>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <title>Mobile Dropdown for Small Screens</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="scss/styles.css" />
+  <link rel="stylesheet" href="scss/all.min.css" />
+  <link href="slick/slick.css" rel="stylesheet" />
+  <link href="slick/slick-theme.css" rel="stylesheet" />
+</head>
 
-    <nav>
+<body>
+  <header>
+    <div id="logo">
+      <img src="images/SegoLily2.png" />
+    </div>
+    <div>
+      <p><a href="tel:1-800-234-5678">1-800-234-5678</a></p>
+    </div>
+  </header>
+
+  <nav>
+    <div style="max-width: 1200px; margin: auto; height: 45px;">
       <button id="hamburgerBtn"></button>
       <ul id="primaryNav" class="closed">
-        <li ><a href="#">HOME</a></li>
-        <li >
+        <li><a href="#">HOME</a></li>
+        <li>
           <a href="#">CRUISES</a>
         </li>
-        <li >
-          <a href="#">RESORTS</a>
+        <li>
+          <a href="#">AGENTS</a>
+          <ul>
+            <li><a href="#">Agent 1</a></li>
+            <li><a href="#">Agent 2</a href="#"></li>
+          </ul>
         </li>
-        <li ><a href="#">BOOK</a></li>
-        
+        <li><a href="#">BOOK</a></li>
       </ul>
-      <div id="searchBar"><form><input type="text" placeholder="Search" name="search"  /><button type="submit" class="submit"><i class="fa fa-search"></i></button></form></div>
-    </nav>
-<div class="bodyDiv">
+      <ul id="secondaryNav">
+        <li id="searchBar">
+          <form><input type="search" placeholder="Search" name="search" /><button type="submit" class="submit"><i
+                class="fa fa-search"></i></button></form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="bodyDiv">
     <main>
       <div class="myslider">
         <picture>
-          <source
-            srcset="sliders/slider01h.jpg"
-            media="(min-width: 29.25rem)"
-          />
+          <source srcset="sliders/slider01h.jpg" media="(min-width: 29.25rem)" />
           <img srcset="sliders/slider01s.jpg" alt="Boston1" />
         </picture>
 
         <picture>
-          <source
-            srcset="sliders/slider02h.jpg"
-            media="(min-width: 29.25rem)"
-          />
+          <source srcset="sliders/slider02h.jpg" media="(min-width: 29.25rem)" />
           <img srcset="sliders/slider02s.jpg" alt="Boston2" />
         </picture>
 
         <picture>
-          <source
-            srcset="sliders/slider03h.jpg"
-            media="(min-width: 29.25rem)"
-          />
+          <source srcset="sliders/slider03h.jpg" media="(min-width: 29.25rem)" />
           <img srcset="sliders/slider03s.jpg" alt="Boston3" />
         </picture>
 
         <picture>
-          <source
-            srcset="sliders/slider04h.jpg"
-            media="(min-width: 29.25rem)"
-          />
+          <source srcset="sliders/slider04h.jpg" media="(min-width: 29.25rem)" />
           <img srcset="sliders/slider04s.jpg" alt="Boston4" />
         </picture>
       </div>
@@ -90,7 +86,7 @@
               </p>
             </article>
             <div>
-              <a href="#">Read More</a>
+              <span>May 1, 2018</span>
             </div>
           </div>
           <!-- end column-->
@@ -109,7 +105,7 @@
               </p>
             </article>
             <div>
-              <a href="#">Read More</a>
+              <span>May 1, 2018</span>
             </div>
           </div>
           <!-- end column-->
@@ -128,7 +124,7 @@
               </p>
             </article>
             <div>
-              <a href="#">Read More</a>
+              <span>May 1, 2018</span>
             </div>
           </div>
           <!-- end column-->
@@ -147,7 +143,7 @@
               </p>
             </article>
             <div>
-              <a href="#">Read More</a>
+              <span>May 1, 2018</span>
             </div>
           </div>
           <!-- end column-->
@@ -157,38 +153,92 @@
     </main>
   </div>
 
-    <footer>
-      <ul class="social clearfix">
-        <li>
-          <a href="#"><i class="fab fa-facebook-square"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-twitter-square"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-youtube-square"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fab fa-google-plus-square"></i></a>
-        </li>
-      </ul>
-    </footer>
+  <footer>
+    <div class="row">
 
-    <script src="js/menuToggle.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $(".myslider").slick({
-          autoplay: true,
-          dots: true,
-          arrows: false,
-          cssEase: "ease-out",
-          speed: 2000,
-          autoplaySpeed: 10000,
-          mobileFirst: true
-        });
+      <article class=" contact">
+        <h2>Contact Us</h2>
+        <p>
+          <a href="https://goo.gl/maps/LJx4Xhd1ktQXkG2v9">
+            CABOT CRUISES <br />
+            23 South Main St. Suite 16 <br />
+            Lexington, VA 24450</a>
+        </p>
+      </article>
+
+      <article class=" phone">
+        <h2>Phone:</h2>
+        <p>
+          1-800-555-1234
+        </p>
+      </article>
+
+      <article class=" hours">
+        <h2>Hours of Operation:</h2>
+        <p>
+          Monday - Friday 9am - 4pm
+        </p>
+      </article>
+
+      <article class=" news">
+        <h2>News Letter</h2>
+        <p>
+          Subscribe to our email list and stay up-to-date with our hottest offers and latest specials.
+        </p>
+        <form action="">
+          <input type="search" placeholder="email" /> <br /><br />
+          <button>Subscribe</button>
+        </form>
+      </article>
+
+      <article class=" why">
+        <h2>Why Cabot Cruises?</h2>
+        <p>
+          Cabot Cruises is a travel agency providing the best cruise deals on our online travel website. We can help you
+          with all inclusive vacations including discounted cruises.<br /> <br /> We do not sell travel to residents of
+          Delaware, Iowa, Florida, Hawaii and Washington state because those states are just wierd. If you are a
+          resident of one of these states, call your congressman and tell them to change the regulations.
+        </p>
+      </article>
+    </div>
+
+    <ul class="social clearfix">
+      <li>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-youtube-square"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fab fa-google-plus-square"></i></a>
+      </li>
+    </ul>
+
+    <div>
+      <p>&copy; 2019 Jordan Ashment &middot; <a href="www.jashment.com">www.jashment.com</a></p>
+    </div>
+
+  </footer>
+
+  <script src="js/menuToggle.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".myslider").slick({
+        autoplay: true,
+        dots: true,
+        arrows: false,
+        cssEase: "ease-out",
+        speed: 2000,
+        autoplaySpeed: 10000,
+        mobileFirst: true
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>

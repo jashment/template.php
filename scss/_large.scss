@@ -26,3 +26,32 @@ main{
 
 
 }
+
+footer {
+    div {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-areas: "one two three" "four four four" "five five five";
+        grid-template-columns: 30% auto auto;
+        grid-template-rows: auto auto;
+        article {
+            padding: .25rem;
+        }
+        article.contact {
+            grid-area: one;
+        }
+        article.news {
+            grid-area: two;
+        }
+        article.why {
+            grid-area: three;
+        }
+        article.phone {
+            grid-area: four;
+        }
+        article.hours {
+            grid-area: five;
+        }
+    }
+}

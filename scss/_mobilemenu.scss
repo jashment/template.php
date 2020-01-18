@@ -15,18 +15,25 @@
         width: 100%;
         height: 2.75rem;
 		background-color: #ba3659; /* change the menu color */
-		div#searchBar {
-			position: absolute;
-			right: 0;
-			form input{
-				height: 40px;
+		li#searchBar {
+			float: right;
+			// right: 0;
+			form{
+				margin-top: -45px;
+				input{
+					height: 35px;
+					width: 100%;
+					float: right;
+				}
 			}
-			
+		}
+		ul li#searchBar form input {
+			width: 50%;
 		}
 	}
 	#hamburgerBtn {
 		display: block;
-		width: 7rem;
+		width: 50%;
         height: 2.75rem;
 		background-image: url('../images/menuOpenWhite.png');
 		background-color: rgba(0,0,0,0.1);
@@ -39,9 +46,6 @@
         background-position: 2vw center;
 		background-repeat: no-repeat;
 	}
-	#hamburgerBtn.closed {
-		height: 0;
-	}
 
 /* Navigation Bar -------------------------------------------------------- */
 
@@ -49,7 +53,7 @@
 	#primaryNav {
         height: 0;
         overflow: hidden;
-		width: 20rem;
+		width: 50%;
 		background-color: #ba3659; /* change the menu color */
 		margin: 0;
 		padding: 0;
@@ -57,9 +61,14 @@
         font-family: Verdana;
         font-weight: normal;
 	}
+	#secondaryNav {
+		width: 25%;
+	}
 	li#searchBar form input {
 		 float: right;
+		 width: 50%;
 	}
+
     #primaryNav li.active a{background-color: rgba(0,0,0,0.25);}
 	#primaryNav li a {
 		display: block;
@@ -101,6 +110,9 @@
 		font-size: 12px;
 		padding: 10px 5%;
 		font-weight: normal;
+	}
+	#primaryNav li ul li {
+		list-style-type: none;
 	}
 	#primaryNav li:hover ul {display: block;}
 } /* End Mobile Styles */

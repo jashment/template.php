@@ -1,10 +1,3 @@
-nav{
-  ul#primaryNav {
-    // display: none;
-  }
-  
-}
-
 header{
   position: relative;
   display: flex;
@@ -101,9 +94,9 @@ article.membCol {
   }
 }
 
-p {
-  margin: 0.5rem 2%;
-}
+// p {
+//   margin: 0.5rem 2%;
+// }
 
 article.llgallery figure {
   width: 100%;
@@ -202,9 +195,10 @@ div.sec3 article.membCol div {
 
 div.sec3 div div div {
   background-color: gainsboro;
-  text-align: center;
+  // text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-left: 5px;
   bottom: 0;
 
   a {
@@ -238,6 +232,22 @@ div.sec4 article.membCol a {
 footer {
   bottom: 0;
   background-color: blue;
+  article p {
+    padding: 0;
+  }
+.news form {
+  width: 100%;
+
+  input {
+    width: 100%;
+    padding: .5rem;
+  }
+  button {
+    width: 100%;
+    border-radius: 1rem;
+    padding: .5rem;
+  }
+}
   ul.social {
     margin: 0 auto;
     text-align: center;
