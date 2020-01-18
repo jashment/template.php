@@ -349,6 +349,8 @@ template {
 [hidden] {
   display: none;
 }
+
+$menuColor: blue;
 @import "mobilemenu";
 @import "largeNav";
 @import "small-default";

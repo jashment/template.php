@@ -1,6 +1,11 @@
+
 function toggleMenu() {
-  document.getElementById("hamburgerBtn").classList.toggle("open");
-  document.getElementById("primaryNav").classList.toggle("open");
+	var y = document.getElementById('primaryNav');
+if(document.getElementById('primaryNav').className==='closed') {
+    	y.className='open';
+    } else {
+    	y.className='closed';
+    }
 }
-var x = document.getElementById("hamburgerBtn");
-x.onclick = toggleMenu;
+var x = document.getElementById('hamburgerBtn');
+x.onclick = toggleMenu; 
