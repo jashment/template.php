@@ -350,7 +350,8 @@ template {
   display: none;
 }
 
-$menuColor: blue;
+$menuColor: #1D65A6;
+$secondaryColor: #72A2C0;
 @import "mobilemenu";
 @import "largeNav";
 @import "small-default";

@@ -28,7 +28,7 @@ main{
 }
 
 footer {
-    div {
+    div.theirInfo {
         max-width: 1200px;
         margin: auto;
         display: grid;
@@ -52,6 +52,12 @@ footer {
         }
         article.hours {
             grid-area: five;
+        }
+    }
+    div.myInfo{
+        // width: 100%;
+        p{
+            text-align: center;
         }
     }
 }

@@ -30,7 +30,7 @@ nav {
 	// new stuff
 
 	ul#primaryNav {
-		background-color: blue;
+		background-color: $menuColor;
 		max-width: 600px;
 		height: 45px;
 		width: 50%;
@@ -56,7 +56,7 @@ nav {
 		background: none;
 		font-size: .9em;
 		padding: .9em .9em;
-		color: black;
+		color: white;
 		text-decoration: none;
 		/*transition*/
 		-webkit-transition: background 0.3s linear; 
