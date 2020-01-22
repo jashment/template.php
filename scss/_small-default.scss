@@ -62,7 +62,7 @@ button#slick-slide-control {
 
 /*----- Main Styling -----*/
 article.membImg {
-  margin: 0.5rem 2%;
+  // margin: 0.5rem 2%;
 }
 
 article.membCol {
@@ -109,7 +109,7 @@ article.llgallery figure {
 }
 
 article.llgallery figure img {
-  width: 100%;
+  // width: 100%;
 }
 
 article.membCol {
@@ -193,20 +193,63 @@ div.sec3 article.membCol div {
   bottom: 0;
 }
 
-div.sec3 div div div {
-  background-color: gainsboro;
-  // text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 5px;
-  bottom: 0;
-
-  a {
-    display: block;
-    text-decoration: none;
-    color: #00688b;
-  }
+a.imgSelect {
+  display: block;
+  text-align: center;
+  width: auto;
+  margin: 2rem 0;
+  position: relative;
 }
+
+a.imgSelect:hover {
+    opacity: .5;
+}
+
+.blogHead {
+  font-size: 1.25rem;
+  background-color: $secondaryColor;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  opacity: 0.7;
+  top: 0;
+}
+
+.blogFoot {
+  background-color: $secondaryColor;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  opacity: 0.7;
+  bottom: 0;
+}
+
+.translucentOver {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s;
+  background-color: $secondaryColor;
+  opacity: .75;
+}
+
+// div.sec3 div div div {
+//   background-color: gainsboro;
+//   // text-align: center;
+//   padding-top: 15px;
+//   padding-bottom: 15px;
+//   padding-left: 5px;
+//   bottom: 0;
+
+
+// }
 
 div.sec4 {
   padding: 1rem 0;
