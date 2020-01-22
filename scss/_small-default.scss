@@ -6,7 +6,6 @@ header{
     padding: .5em;
 
     img{
-      background-color: gray;
       border-radius: 1em;
       width: 5em;
       height: 5em;
@@ -61,12 +60,8 @@ button#slick-slide-control {
 }
 
 /*----- Main Styling -----*/
-article.membImg {
-  // margin: 0.5rem 2%;
-}
 
 article.membCol {
-  /*border: solid 1px black;*/
   text-align: center;
   border: solid 1px black;
 }
@@ -94,10 +89,6 @@ article.membCol {
   }
 }
 
-// p {
-//   margin: 0.5rem 2%;
-// }
-
 article.llgallery figure {
   width: 100%;
   height: 1px;
@@ -106,10 +97,6 @@ article.llgallery figure {
   margin: 0 auto;
   display: block;
   float: none;
-}
-
-article.llgallery figure img {
-  // width: 100%;
 }
 
 article.membCol {
@@ -201,21 +188,21 @@ a.imgSelect {
   position: relative;
 }
 
-a.imgSelect:hover {
-    opacity: .5;
+.translucentOver:hover {
+    opacity: .2;
 }
 
 .blogHead {
-  font-size: 1.25rem;
-  background-color: $secondaryColor;
-  padding-top: 5px;
-  padding-bottom: 5px;
   color: white;
   position: absolute;
   text-align: center;
   width: 100%;
   opacity: 0.7;
   top: 0;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: $secondaryColor;
 }
 
 .blogFoot {
@@ -228,28 +215,18 @@ a.imgSelect:hover {
   width: 100%;
   opacity: 0.7;
   bottom: 0;
+  font-weight: 600;
 }
 
 .translucentOver {
-  position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   transition: opacity 0.5s;
   background-color: $secondaryColor;
   opacity: .75;
+  position: absolute;
 }
-
-// div.sec3 div div div {
-//   background-color: gainsboro;
-//   // text-align: center;
-//   padding-top: 15px;
-//   padding-bottom: 15px;
-//   padding-left: 5px;
-//   bottom: 0;
-
-
-// }
 
 div.sec4 {
   padding: 1rem 0;
