@@ -378,7 +378,7 @@ template {
   #primaryNav li a {
     display: block;
     width: 100%;
-    padding: .75rem 2vw;
+    padding: 0.75rem 2vw;
     font-size: 14px;
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15);
     color: white;
@@ -400,7 +400,7 @@ template {
     background: rgba(0, 0, 0, 0.5); }
 
   #primaryNav li.parent > a:after {
-    font-size: .75rem;
+    font-size: 0.75rem;
     content: "\25BC";
     color: rgba(255, 255, 255, 0.5);
     float: right; }
@@ -502,6 +502,9 @@ nav {
     margin-left: 0; }
   nav li.active a {
     background-color: rgba(0, 0, 0, 0.25); }
+
+html {
+  font-family: "Open Sans"; }
 
 header {
   position: relative;
@@ -746,6 +749,19 @@ div.sec4 article.membCol a {
   display: table;
   clear: both; }
 
+.cruiseMain {
+  padding: 10px; }
+  .cruiseMain div img {
+    width: 100%; }
+  .cruiseMain .cruiseBtn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: #72A2C0;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px; }
+
 footer {
   bottom: 0;
   background-color: #72A2C0; }
@@ -760,6 +776,10 @@ footer {
       width: 100%;
       border-radius: 1rem;
       padding: .5rem; }
+  footer article.phone p a {
+    color: white; }
+  footer article.contact p a {
+    color: white; }
   footer ul.social {
     margin: auto;
     text-align: center;
@@ -916,6 +936,25 @@ footer {
     main .large-12 {
       width: 100%;
       float: left; }
+
+  .cruiseMain .contentContainer h1 {
+    padding-left: 20px; }
+  .cruiseMain .contentContainer div.imgDiv img {
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin: 20px; }
+  .cruiseMain .contentContainer div.contentDiv {
+    height: 250px;
+    display: flex;
+    flex-direction: column; }
+    .cruiseMain .contentContainer div.contentDiv .btnHolder {
+      justify-content: flex-end;
+      display: flex; }
+      .cruiseMain .contentContainer div.contentDiv .btnHolder button {
+        border-radius: 1rem;
+        cursor: pointer;
+        max-width: 200px; }
 
   footer div.theirInfo {
     max-width: 1200px;

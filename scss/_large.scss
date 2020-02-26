@@ -27,6 +27,46 @@ main{
 
 }
 
+.cruiseMain {
+
+.contentContainer{
+    h1{
+        padding-left: 20px;
+    }
+        div.imgDiv{
+
+            img{
+                width: 350px;
+                height: 200px;
+                float: left;
+                margin: 20px;
+            }
+        }
+            div.contentDiv {
+                height: 250px;
+                display: flex;
+                flex-direction: column;
+
+                // span {
+
+                // }
+                .btnHolder{
+                    justify-content: flex-end;
+                        display: flex;
+
+                    button {
+                        border-radius: 1rem;
+                        cursor: pointer;
+                        max-width: 200px;
+                        // bottom: 0;
+                        // position: absolute;
+                    }
+                }
+            }
+        }
+    }
+
+
 footer {
     div.theirInfo {
         max-width: 1200px;
