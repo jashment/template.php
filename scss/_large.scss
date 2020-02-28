@@ -74,6 +74,20 @@ main{
     }
 }
 
+.bookMain {
+  form{
+    input{
+      width: 50%;
+    }
+    select{
+      width: 50%;
+    }
+    button {
+      width: 50%;
+    }
+  }
+}
+
 footer {
     div.theirInfo {
         max-width: 1200px;

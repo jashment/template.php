@@ -774,15 +774,15 @@ div.sec4 article.membCol a {
   .bookMain form label {
     margin-top: 10px; }
   .bookMain form input {
-    width: 50%;
+    width: 100%;
     height: 50px;
     margin-bottom: 10px; }
   .bookMain form select {
-    width: 50%;
+    width: 100%;
     height: 50px; }
   .bookMain form button {
     margin-top: 10px;
-    width: 50%;
+    width: 100%;
     height: 50px;
     border-radius: 2em; }
 
@@ -984,6 +984,13 @@ footer {
     float: right;
     width: 400px;
     height: 400px; }
+
+  .bookMain form input {
+    width: 50%; }
+  .bookMain form select {
+    width: 50%; }
+  .bookMain form button {
+    width: 50%; }
 
   footer div.theirInfo {
     max-width: 1200px;
