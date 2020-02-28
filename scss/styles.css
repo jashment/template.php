@@ -488,7 +488,7 @@ nav {
     background-color: #257fd1;
     left: -999em;
     /* pushes the menu way off to the side */
-    width: 12em;
+    width: 5em;
     text-decoration: none; }
   nav ul li ul li {
     /* overides the float and line from the parent ul */
@@ -762,6 +762,30 @@ div.sec4 article.membCol a {
     margin-bottom: 20px;
     margin-top: 10px; }
 
+.agentMain {
+  padding: 10px; }
+  .agentMain img {
+    width: 100%;
+    padding: 5px; }
+
+.bookMain form {
+  width: 100%;
+  padding: 10px; }
+  .bookMain form label {
+    margin-top: 10px; }
+  .bookMain form input {
+    width: 50%;
+    height: 50px;
+    margin-bottom: 10px; }
+  .bookMain form select {
+    width: 50%;
+    height: 50px; }
+  .bookMain form button {
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+    border-radius: 2em; }
+
 footer {
   bottom: 0;
   background-color: #72A2C0; }
@@ -811,7 +835,7 @@ footer {
     background-color: #257fd1;
     left: -999em;
     /* pushes the menu way off to the side */
-    width: 12em;
+    width: 5em;
     padding-left: 0; }
   nav ul li:hover ul {
     /* this displays the menus as drop downs  */
@@ -955,6 +979,11 @@ footer {
         border-radius: 1rem;
         cursor: pointer;
         max-width: 200px; }
+
+  .agentMain img {
+    float: right;
+    width: 400px;
+    height: 400px; }
 
   footer div.theirInfo {
     max-width: 1200px;

@@ -36,10 +36,10 @@
           <a href="#">AGENTS</a>
           <ul>
             <li><a href="/agent1.php">Agent 1</a></li>
-            <li><a href="#">Agent 2</a></li>
+            <li><a href="/agent2.php">Agent 2</a></li>
           </ul>
         </li>
-        <li><a href="#">BOOK</a></li>
+        <li><a href="/book.php">BOOK</a></li>
       </ul>
       <ul id="secondaryNav">
         <li id="searchBar">

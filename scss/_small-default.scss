@@ -268,7 +268,38 @@ div.sec4 article.membCol a {
   }
 }
 
+.agentMain {
+  padding: 10px;
+  img{
+    width: 100%;
+    padding: 5px;
+  }
+}
 
+.bookMain {
+  form{
+    width: 100%;
+    padding: 10px;
+    label {
+      margin-top: 10px;
+    }
+    input{
+      width: 50%;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+    select{
+      width: 50%;
+      height: 50px;
+    }
+    button {
+      margin-top: 10px;
+      width: 50%;
+      height: 50px;
+      border-radius: 2em;
+    }
+  }
+}
 
 footer {
   bottom: 0;

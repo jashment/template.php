@@ -19,7 +19,7 @@ Caribbean cruises typically range from four to 14 nights in length and are avail
 </div>
         <div class="contentContainer">
         <div class="imgDiv">
-            <img src="/images/cruise2.jpg" alt="Cruise 1"/>
+            <img src="/images/cruise2.jpg" alt="Cruise 2"/>
         </div>
         <div class="contentDiv">
             <h2>Alaskan Cruises from $850</h2>
@@ -32,7 +32,7 @@ Caribbean cruises typically range from four to 14 nights in length and are avail
 </div>
         <div class="contentContainer">
         <div class="imgDiv">
-            <img src="/images/cruise3.jpg" alt="Cruise 1"/>
+            <img src="/images/cruise3.jpg" alt="Cruise 3"/>
         </div>
         <div class="contentDiv">
             <h2>Mexican Cruises from $700</h2>
@@ -46,7 +46,7 @@ Caribbean cruises typically range from four to 14 nights in length and are avail
 </div>
         <div class="contentContainer">
         <div class="imgDiv">
-            <img src="/images/cruise4.jpg" alt="Cruise 1"/>
+            <img src="/images/cruise4.jpg" alt="Cruise 4"/>
         </div>
         <div class="contentDiv">
             <h2>Mediterranean Cruises from $1200</h2>
