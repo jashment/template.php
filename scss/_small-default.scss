@@ -297,6 +297,11 @@ div.sec4 article.membCol a {
       width: 100%;
       height: 50px;
       border-radius: 2em;
+      background-color: $secondaryColor;
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 800;
     }
   }
 }
