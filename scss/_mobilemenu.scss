@@ -21,7 +21,6 @@
     left: 0;
     width: 100%;
     height: 2.75rem;
-    background-color: #ba3659; /* change the menu color */
     li#searchBar {
       float: right;
       form {
@@ -31,7 +30,17 @@
           width: 100%;
           float: right;
         }
+        button{
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        }
       }
+    }
+    ul li {
+      display: block;
+      float: none;
+      z-index: 99;
     }
     ul li#searchBar form input {
       width: 50%;
@@ -94,6 +103,7 @@
   /* Toggle the navigation bar to expand down  */
   #primaryNav.open {
     height: auto;
+    z-index: 99;
   }
   #primaryNav.closed {
     height: 0;
@@ -118,6 +128,7 @@
     background: rgba(0, 0, 0, 0.3);
     padding: 0;
     padding-left: 0;
+    position: relative;
   }
   #primaryNav li ul a {
     border-top: solid 1px rgba(0, 0, 0, 0.2);
@@ -128,6 +139,7 @@
   #primaryNav li ul li {
     list-style-type: none;
     background-color: $secondaryColor;
+    width: 550px;
   }
   #primaryNav li:hover ul {
     display: block;

@@ -1,8 +1,8 @@
-<?php include '_header.php'; ?>
+<?php $title= 'Agent Bud Abbott'; include '_header.php'; ?>
     <main class="agentMain">
     
         <h1>Agent - Bud Abbott</h1>
-        <img src="/images/agent2.jpg" alt="Agent 1" />
+        <img src="images/agent2.jpg" alt="Agent 1" />
         <h2>Phone</h2>
         <p>1-800-123-4567</p>
 

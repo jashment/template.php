@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
 
-  <title>Cabot Cruises</title>
+  <title><?php echo($title); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" media="screen" href="scss/styles.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -35,11 +35,11 @@
         <li>
           <a href="#">AGENTS</a>
           <ul>
-            <li><a href="/agent1.php">Agent 1</a></li>
-            <li><a href="/agent2.php">Agent 2</a></li>
+            <li><a href="agent1.php">Agent 1</a></li>
+            <li><a href="agent2.php">Agent 2</a></li>
           </ul>
         </li>
-        <li><a href="/book.php">BOOK</a></li>
+        <li><a href="book.php">BOOK</a></li>
       </ul>
       <ul id="secondaryNav">
         <li id="searchBar">

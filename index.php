@@ -1,4 +1,4 @@
-<?php include '_header.php'; ?>
+<?php $title= 'Cabot Cruises'; include '_header.php'; ?>
   <div class="bodyDiv">
     <main>
       <div class="myslider">

@@ -52,11 +52,10 @@ nav {
     left: -999em;
     list-style-type: none;
   }
-
   ul li a {
-    display: inline-block;
+    display: block;
     border: none; // undo small screen
-
+    
     background: none;
     font-size: 0.9em;
     padding: 0.9em 0.9em;

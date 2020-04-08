@@ -1,4 +1,4 @@
-<?php include '_header.php'; ?>
+<?php $title= 'Book A Cruise'; include '_header.php'; ?>
 
 <main class="bookMain">
     <h1>Book a Cruise</h1>
